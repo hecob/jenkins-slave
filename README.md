@@ -18,7 +18,7 @@
 
 ## To run a Docker container with Work Directory:
 ```
-docker run jenkins/jnlp-slave:latest -url http://192.168.0.18:9080 -tunnel 192.168.0.18:51000 -workDir=/home/jenkins/agent 402bf959f442645388bf60b4ab2537f9d7838a12235651377d495d3597ac79fa  agent
+docker run jenkins/jnlp-slave:latest -url http://192.168.0.20:9080  -tunnel 192.168.0.20:51000 -disableHttpsCertValidation -workDir=/home/jenkins/agent 402bf959f442645388bf60b4ab2537f9d7838a12235651377d495d3597ac79fa agent
 ```
 ## Optional environment variables:
 ```
